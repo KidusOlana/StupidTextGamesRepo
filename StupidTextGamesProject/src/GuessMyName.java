@@ -4,7 +4,8 @@
 import java.util.*;
 
 public class GuessMyName implements StupidTextGame {
-
+	
+	//Accepts Scanner
 	public void play(Scanner console) {
 		System.out.println("Of the names below, which one is mine?");
 		List<String> names = new ArrayList<String>();
